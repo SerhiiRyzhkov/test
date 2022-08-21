@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class TicTacToe {
     public static void main(String[] args) {
+        System.out.println();
         System.out.println("Use the following mapping table to specify a cell using numbers from 1 to 9:");
         printTableMapping();
         char[][] gameTable = {
